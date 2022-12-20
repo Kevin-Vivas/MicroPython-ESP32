@@ -1,10 +1,10 @@
 import time
 from machine import Pin, PWM, ADC
 
-mensaje = "hdkdf12345"
+
 pwm32 = PWM(Pin(5))
 pwm32.freq(5000)
-pwm32.duty(int(mensaje))
+pwm32.duty(1024)
 
 """
 def Principal():
